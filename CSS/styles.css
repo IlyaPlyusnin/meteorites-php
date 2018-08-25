@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-areas:
+    "heading"
+    "banner"
+    "accordion"
+    "results";
+}
+.heading {
+  grid-area: heading;
+  text-align: center;
+  padding: 0;
+}
+.heading h1 {
+  font-size: 70px;
+}
+.accordion {
+  grid-area: accordion;
+  width: 60vw;
+  margin: 1rem auto;
+}
+.banner {
+  grid-area: banner;
+  width: 100vw;
+  object-fit: cover;
+}
+.results {
+  background-color: #f4f4f4;
+}
+
+.results h1 {
+  text-align: center;
+}
+
+.mainHeading {
+  font-family: "Avenir Next";
+  font-style: italic;
+}
+
+.moveDown {
+  margin-bottom: 15px;
+}
+
+#map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 75%;
+  margin-bottom: 30px;
+}
+
+#margin {
+  margin-top: 30px;
+}
+
+form {
+  padding: 1rem;
+}
+.radioBtns {
+  padding-left: 1rem;
+}
